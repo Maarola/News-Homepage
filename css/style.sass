@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+    list-style: none
+
+body
+    font-family: "Inter", sans-serif
+
+.header-container
+    display: flex
+    flex-direction: row
+
+    justify-content: space-between
+    margin: 3rem 20rem
+
+
+    img
+        width: 70px
+        height: 40px
+
+    ul
+        display: flex
+        flex-direction: row
+        gap: 3rem
+        
+
+        li
+            color: #5e607a
+            text-transform: capitalize
+            font-size: 1rem
+            cursor: pointer
+            
+            &:hover
+                color: #f15d51
+
+main
+    display: flex
+    flex-direction: column
+    gap: 3rem    
+.main__container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+    margin: 0 20rem
+    gap: 5rem
+
+    .main__content-left
+        display: flex
+        flex-direction: column
+        gap: 1.5rem
+        
+        img
+            width: 900px
+            height: 300px
+
+        .main__text
+            display: flex
+            flex-direction: row
+            gap: 7rem
+
+            h1
+                font-size: 56px
+                width: 356px
+                font-weight: 800
+                text-transform: capitalize
+
+        .main__text-right
+            display: flex
+            flex-direction: column
+            gap: 2.2rem
+
+            p
+                font-weight: 400
+                font-size: 15px
+                line-height: 1.5rem
+                width: 350px    
+                height: 104px   
+                text-transform: capitalize
+
+            button
+                text-transform: uppercase
+                background-color: #f15d51
+                color: #fff
+                width: 185px
+                height: 48px
+                border: none
+                cursor: pointer
+            
+                &:hover
+                    background-color: #000a1a
+
+.main__content-right
+    display: flex
+    flex-direction: column
+    gap: 1.4rem
+    background-color: #00001A
+    padding: 20px
+
+    hr
+        border-color: #5E607A
+        margin: 10px 0
+
+    h1
+        color: #E9AA52
+        text-transform: capitalize
+        font-weight: 700
+        font-size: 40px
+        
+
+    .text__right
+        display: flex
+        flex-direction: column
+        h2
+            color: #fff
+            font-weight: 800
+            font-size: 20px
+            line-height: 24px
+            text-transform: capitalize
+            cursor: pointer
+            margin-bottom: 10px
+
+            &:hover
+                color: #f9aa52
+        p
+            color: #C5C6CE
+            font-weight: 400
+            font-size: 14.5px
+            line-height: 26px
+            width: 302px
+            text-transform: capitalize
+
+.div__top
+    display: flex
+    margin: 0 20rem
+    justify-content: space-between
+
+    .top__card
+        display: flex
+        gap: 1rem
+
+        img
+            height: 130px
+    .top__content
+        display: flex
+        flex-direction: column
+        gap: 0.5rem
+
+        h1
+            color: #C5C6CE
+            font-weight: 700
+            font-size: 32px
+        h2
+            font-weight: 800
+            font-size: 18px
+            color: #00001A
+            cursor: pointer
+            
+            &:hover
+                color: #F15D51
+
+
+        p
+            color: #5E607A
+            font-weight: 400
+            font-size: 15px 
+            line-height: 26px
+            width: 226px
+
+
+@media(max-width: 425px)
+
+
+    .header-container
+        margin: 1.5rem
+
+        ul
+            display: none
+    .main__container
+        flex-direction: column
+        margin: 1.5rem
+        .main__content-left
+            img
+                width: 100%
+                height: 250           
+            .main__text
+                flex-direction: column
+                gap: 1.5rem
+                h1
+                    font-size: 40px
+                
+            .main__text-right
+                gap: 1.5rem
+            button
+                font-size: 14px
+    .main__content-right
+        h1
+            font-size: 34px
+        .text__right
+            h2
+                font-size: 19px
+            p
+                font-size: 15px
+    .div__top
+        margin: 1.5rem
+        flex-direction: column
+        gap: 2rem
+        padding-bottom: 3rem
+        .top__content
+            h1
+                font-size: 32px
+            h2
+                font-size: 17.8px
+            p
+                font-size: 15px
