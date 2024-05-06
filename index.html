@@ -11,16 +11,36 @@
 <body>
     <header>
         <nav>
-            <div class="header-container">
+            <div class="header__container">
                 <img src="assets/logo.png" alt="">
 
-                <ul>
+                <ul class="ul__desktop">
                     <li>home</li>
                     <li>novo</li>
                     <li>popular</li>
                     <li>tranding</li>
                     <li>categorias</li>
                 </ul>
+                <div class="header__mobile">
+                    <button class="btn__padrao" id="button__open">
+                        <img class="button__hamburger" src="assets/buttonOpen.png" alt="">
+                    </button>
+                    
+                </div>
+                <nav class="nav__mobile">
+                    <button class="btn__padrao" id="button__close">
+                        <img class="button__hamburger-close" src="assets/buttonClose.png" alt="">
+                    </button>
+                    
+
+                    <ul>
+                        <li>home</li>
+                        <li>novo</li>
+                        <li>popular</li>
+                        <li>tranding</li>
+                        <li>categorias</li>
+                    </ul>
+                </nav>
             </div>
         </nav>
     </header>
@@ -83,6 +103,7 @@
             </div>
         </div>
     </main>
-    
+
+    <script src="js/script.js"></script>
 </body>
 </html>
