@@ -1,4 +1,4 @@
-Projeto News - Home Page
+Projeto News - Home Page Responsive
 
 Projeto Pessoal Desenvolvido em HTML, SASS e JS 
 
